@@ -135,7 +135,7 @@ class GameViewController: UIViewController {
         let cardName : String = cardsArray[randNum] as! String
         
         //remove card used
-        cardsArray.remove(at: randNum)
+        cardsArray.removeObject(at: randNum)
         
         cardCount -= 1
         
